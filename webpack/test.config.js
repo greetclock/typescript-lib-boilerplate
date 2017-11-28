@@ -1,8 +1,8 @@
-let webpackMerge = require('webpack-merge')
-let path = require('path')
-let commonConfig = require('./common.config.js')
-let helpers = require('./helpers')
-let DefinePlugin = require('webpack/lib/DefinePlugin')
+const webpackMerge = require('webpack-merge')
+const path = require('path')
+const commonConfig = require('./common.config.js')
+const helpers = require('./helpers')
+const DefinePlugin = require('webpack/lib/DefinePlugin')
 
 const ENV = 'test'
 process.env.ENV = ENV

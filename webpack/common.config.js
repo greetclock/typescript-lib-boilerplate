@@ -1,12 +1,8 @@
-// let path = require('path')
-let ExtractTextPlugin = require('extract-text-webpack-plugin')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const CheckerPlugin = require('awesome-typescript-loader').CheckerPlugin
-
-let helpers = require('./helpers')
+const helpers = require('./helpers')
 
 module.exports = function () {
-  // let isProd = options.env === 'production'
-
   return {
     entry: './src/index.ts',
     output: {
