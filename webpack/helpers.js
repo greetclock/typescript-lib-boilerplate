@@ -1,4 +1,4 @@
-let path = require('path')
+const path = require('path')
 
 let ROOT = path.resolve(__dirname, '..')
 

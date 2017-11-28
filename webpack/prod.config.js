@@ -10,7 +10,8 @@ process.env.ENV = ENV
 
 module.exports = webpackMerge(commonConfig({ env: ENV }), {
   plugins: [
-    new TypedocWebpackPlugin({
+    new TypedocWebpackPlugin(
+      {
         out: '../docs',
       },
       path.resolve(__dirname, '../src'),

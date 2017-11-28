@@ -1,5 +1,5 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
-const CheckerPlugin = require('awesome-typescript-loader').CheckerPlugin
+const { CheckerPlugin } = require('awesome-typescript-loader')
 const helpers = require('./helpers')
 
 module.exports = function () {
