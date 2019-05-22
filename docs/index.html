@@ -62,6 +62,18 @@
 	<div class="row">
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
+				<h1 id="typescript-library-boilerplate">TypeScript library boilerplate</h1>
+				<p>A boilerplate for TypeScript libraries. Webpack, tests, Typedoc. Just clone, run <code>npm i</code> and start build your TypeScript library 🔥</p>
+				<p>Change <code>MyLib</code> in three files: <code>.eslintrc</code>, <code>examples/developing/main.js</code>, <code>webpack/common.config.js</code>.</p>
+				<p>Scripts:</p>
+				<ul>
+					<li><code>npm start</code> and <code>npm run dev</code> - run a server with hot reloading available at <code>localhost:8080</code>.</li>
+					<li><code>npm test</code> and <code>npm run watch:test</code> - run tests with <a href="https://karma-runner.github.io/1.0/index.html">Karma</a>. Single run and watch mode.</li>
+					<li><code>npm run build</code> - builds and minifies your library. Also generates documentation using Typedoc. Builds in <a href="https://github.com/umdjs/umd">UMD</a> format, so it can be used both in browser and Node.js.</li>
+					<li><code>npm run typedoc</code> - generates documentation.</li>
+					<li><code>npm run check-updates</code> - checks dependendency updates.</li>
+				</ul>
+				<p><a href="https://github.com/cherurg">Alexey Karpov</a></p>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
