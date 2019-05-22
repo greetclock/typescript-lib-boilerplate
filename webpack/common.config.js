@@ -1,4 +1,3 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const { CheckerPlugin } = require('awesome-typescript-loader')
 const helpers = require('./helpers')
