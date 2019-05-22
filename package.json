@@ -10,20 +10,18 @@
     "dev": "webpack-dev-server --config webpack/dev.config.js --hot",
     "start": "npm run dev",
     "build": "ENV=production webpack --config webpack/prod.config.js",
-    "typedoc": "typedoc --out docs --exclude '**/*.spec.ts' ./src/",
-    "check-updates": "ncu"
+    "typedoc": "typedoc --out docs --exclude '**/*.spec.ts' ./src/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jasmine": "^3.3.12",
     "@types/node": "^10.14.7",
-    "@types/source-map": "^0.5.7",
     "@types/webpack": "^4.4.32",
     "awesome-typescript-loader": "^5.2.1",
     "css-loader": "^2.1.1",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
@@ -53,5 +51,7 @@
     "webpack-dev-server": "^3.4.1",
     "webpack-merge": "^4.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "source-map": "^0.7.3"
+  }
 }
