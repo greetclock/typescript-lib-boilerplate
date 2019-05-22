@@ -7,6 +7,7 @@ const ENV = 'development'
 process.env.ENV = ENV
 
 module.exports = webpackMerge(commonConfig({ env: ENV }), {
+  mode: 'development',
   devServer: {
     contentBase: helpers.root('examples', 'developing'),
     watchContentBase: true,
