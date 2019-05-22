@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jasmine": "^2.8.2",
+    "@types/jasmine": "^3.3.12",
     "@types/node": "^10.14.7",
     "@types/source-map": "^0.5.2",
     "@types/webpack": "^4.4.32",
@@ -29,7 +29,7 @@
     "eslint-plugin-react": "^7.5.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "istanbul-instrumenter-loader": "^3.0.0",
-    "jasmine-core": "^2.8.0",
+    "jasmine-core": "^3.4.0",
     "karma": "^1.7.1",
     "karma-chrome-launcher": "^2.2.0",
     "karma-coverage": "^1.1.1",
