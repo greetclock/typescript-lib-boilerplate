@@ -8,4 +8,5 @@ export function print(message: string) {
   let div = document.createElement('div')
   div.innerHTML = message
   document.querySelector('body').append(div)
+  console.log(message)
 }
