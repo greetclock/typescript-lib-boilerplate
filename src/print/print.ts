@@ -4,6 +4,6 @@
  */
 export function print(message: string) {
   let div = document.createElement('div')
-  div.innerHTML = 'Hello, World!'
+  div.innerHTML = message
   document.querySelector('body').append(div)
 }

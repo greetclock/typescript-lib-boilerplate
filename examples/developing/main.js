@@ -1,1 +1,1 @@
-MyLib.print('Hi')
+MyLib.print('Hi!')
